@@ -40,6 +40,19 @@ body { margin: 0; font-family: 'Quicksand', sans-serif; }
 .booking-steps ol { padding-left: 20px; }
 .booking-steps li { margin-bottom: 8px; font-size: 16px; }
 
+.programme-photos {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.programme-photos img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
 /* Photos */
 .photo-group { text-align: center; margin: 30px 0; }
 .photo-group h1 { font-size: 28px; margin-bottom: 20px; }
