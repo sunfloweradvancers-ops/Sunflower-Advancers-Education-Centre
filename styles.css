@@ -41,10 +41,6 @@ body { margin: 0; font-family: 'Quicksand', sans-serif; }
 .booking-steps li { margin-bottom: 8px; font-size: 16px; }
 
 .programme-photos {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
-  gap: 15px;
   width: 100%;
   margin-top: 20px;
 }
@@ -52,9 +48,11 @@ body { margin: 0; font-family: 'Quicksand', sans-serif; }
 .programme-photos img {
   display: block;
   width: 100%;
+  max-width: 300px;
   height: auto;
-  margin: 0;
-  border-radius: 12px;
+  margin: 0 auto 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Photos */
